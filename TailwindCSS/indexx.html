@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- adding tailwind script from play cdn tailwind site but we can't use this on production -->
+    <!-- for production use for tailwind: postCSS+vite -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Learning Tailwind Css</title>
+  </head>
+  <body>
+    <!-- mx is margin to x, px is padding to x -->
+    <nav class="px-4 py-4 bg-purple-900 text-white">
+      <ul class="flex">
+        <li class="mx-2 cursor-pointer font-semibold">Home</li>
+        <li class="mx-2 cursor-pointer font-semibold">About</li>
+        <li class="mx-2 cursor-pointer font-semibold">Contact</li>
+      </ul>
+    </nav>
+    <div class="container">
+      <h1 class="text-blue-800 my-12">This is Blue text</h1>
+    </div>
+  </body>
+</html>
